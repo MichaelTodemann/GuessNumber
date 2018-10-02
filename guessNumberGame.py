@@ -8,15 +8,15 @@ print("I am thinking of a number between 1 and 20.")
 def engine(Ran_num, count):
 
     while True:
-        guess = int(input("Take a guess  >"))
+        guess = int(input("Take a guess  > "))
 
         if guess > Ran_num:
-            print("Wrong! Your number is higher. Try a lower number.")
+            print("Wrong! Your guess is higher. Try a lower number.")
             count += 1
             continue
 
         elif guess < Ran_num:
-            print("Wrong! Your number is lower. Try a higher number.")
+            print("Wrong! Your guess is lower. Try a higher number.")
             count += 1
             continue
 
